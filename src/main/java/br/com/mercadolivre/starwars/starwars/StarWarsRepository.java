@@ -15,7 +15,7 @@ import java.util.NoSuchElementException;
 @Repository
 public class StarWarsRepository {
 
-    private static final File FILE = new File("starwars.json");
+    private static final File FILE = new File("src/main/data/starwars.json");
 
 	private final ObjectMapper mapper;
 
